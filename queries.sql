@@ -29,7 +29,7 @@ WHERE OrderID = 10251
 ORDER BY ProductName;
 
 
--- Display the OrderID, Customer's Company Name and the employee's LastName for every order. All columns should be labeled clearly. Displays 16,789 records.
+-- Display the OrderID, Customer's Company Name    employee's LastName for every order. All columns should be labeled clearly. Displays 16,789 records.
 
 SELECT CategoryName
 , COUNT(ProductName) AS Count
